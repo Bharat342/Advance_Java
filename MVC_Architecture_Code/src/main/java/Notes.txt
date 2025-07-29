@@ -1,0 +1,27 @@
+
+#######################
+
+MVC Architecture
+
+#######################
+
+--> MVC Stands for Model, view, Controller
+
+--> It is a 3 layered architecture used to build application
+
+--> Using this architecture we divided application into following layers
+	
+	a. View - All front-end code of your application we will keep that in view
+	
+	Exampl : html, jsp etc.
+	
+	b. Model - All database operations/ business logic we devlop in this layer
+	
+	c. Controller - It act as, mediator between view and model layer. 
+		That is it takes data from the view and gives that model and vice versa.
+		
+	Practical Example - To add two number usgin MVC Architecture
+	
+		a. View - add.jsp
+		b. Controller - Servlets (AddController.java)
+		c. Model (Service layer) - Java classes with logical implementation - AddService
